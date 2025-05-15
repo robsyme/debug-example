@@ -1,4 +1,4 @@
-params.local = "data/NO_FILE"
+params.local = "${projectDir}/data/NO_FILE"
 params.remote = "s3://nextflow-summit-2025/pipeline_results/temp/versions.yml"
 
 

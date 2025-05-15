@@ -12,6 +12,7 @@ workflow {
 
 process DoSomething {
     debug true
+    container 'quay.io/nextflow/bash'
     input: 
     tuple val(meta), path(files)
 
